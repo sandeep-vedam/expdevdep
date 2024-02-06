@@ -1,6 +1,6 @@
 {
   "name": "expdevdep",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "\"Check lint and husky\"",
   "bin": "bin/index.js",
 	"type":"module",
@@ -9,7 +9,7 @@
   },
   "author": "Sandeep-Vedam",
   "license": "Apache-2.0",
-  "dependencies": {
+  "devDependencies": {
     "prompts": "2.4.2",
 "ora":"8.0.1",
 "kolorist": "1.8.0"
