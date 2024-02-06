@@ -1,6 +1,5 @@
 import prompts from 'prompts'
 import ora from 'ora'
-const spinner = ora()
 
 
 // let x = 10
@@ -30,7 +29,7 @@ const createApp = () => {
       console.log("Inside promise")
       let answ
         answ = await prompts(questions)
-        spinner.succeed(`${answ.q1}`)
+        ora(`Loading`).succeed(`${answ.q1}`)
   })
   }
 
