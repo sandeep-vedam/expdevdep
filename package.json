@@ -1,6 +1,6 @@
 {
   "name": "expdevdep",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "\"Check lint and husky\"",
   "bin": {
     "expdevdep": "bin/index.js"
@@ -11,7 +11,7 @@
   },
   "author": "Sandeep-Vedam",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "prompts": "2.4.2",
     "ora": "^7.0.1",
     "kolorist": "^1.8.0"
