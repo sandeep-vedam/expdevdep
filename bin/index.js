@@ -1,5 +1,4 @@
 import prompts from 'prompts'
-import ora from 'ora'
 
 
 // let x = 10
@@ -29,7 +28,7 @@ const createApp = () => {
       console.log("Inside promise")
       let answ
         answ = await prompts(questions)
-        ora(`Loading`).succeed(`${answ.q1}`)
+console.log("Value of answ is", answ)
   })
   }
 
