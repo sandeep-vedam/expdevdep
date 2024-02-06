@@ -1,6 +1,6 @@
 {
   "name": "expdevdep",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "\"Check lint and husky\"",
   "bin": "bin/index.js",
   "type": "module",
