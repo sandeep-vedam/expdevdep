@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-//import prompts from 'prompts'
-const prompts = require('prompts')
+import prompts from 'prompts'
+//const prompts = require('prompts')
 
 
 // let x = 10
