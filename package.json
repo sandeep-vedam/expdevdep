@@ -1,6 +1,6 @@
 {
   "name": "expdevdep",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "\"Check lint and husky\"",
   "bin": "bin/index.js",
   "type": "module",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sandeep-Vedam",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "prompts": "2.4.2",
     "ora": "^7.0.1",
