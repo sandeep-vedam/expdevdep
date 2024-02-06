@@ -1,6 +1,4 @@
-console.log('sandeep' + 'Kumar')
 import prompts from 'prompts'
-import { red, bold } from 'kolorist'
 import ora from 'ora'
 const spinner = ora()
 
