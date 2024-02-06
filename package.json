@@ -1,10 +1,8 @@
 {
   "name": "expdevdep",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "\"Check lint and husky\"",
-  "bin": {
-    "expdevdep": "bin/index.js"
-  },
+  "bin": "bin/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
