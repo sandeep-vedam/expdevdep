@@ -1,6 +1,9 @@
 import prompts from 'prompts'
+import path from 'path'
 import ora from 'ora'
 const spinner = ora()
+import fs from 'fs'
+import { cwd } from 'process'
 
 
 // let x = 10
@@ -26,6 +29,9 @@ const questions = [
 const createApp = () => {
   console.log("Inside create app")
   return new Promise(async resolve => {
+    fs.mkdirSync(path.join(process.cwd(), 'new'), { recursive: true })
+    console.log("Path is", path.join(process.cwd(),'git/.gitignore'))
+    fs.copyFileSync(path.join(process.cwd(),'git/.gitignore'), path.join(process.cwd(), 'new/.gitignore'))
   
       console.log("Inside promise")
       let answ
