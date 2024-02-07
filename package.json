@@ -1,17 +1,17 @@
 {
   "name": "expdevdep",
-  "version": "1.4.1",
+  "version": "1.5.4",
   "description": "\"Check lint and husky\"",
   "bin": "bin/index.js",
-  "type": "module",
+	"type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sandeep-Vedam",
-  "license": "ISC",
-  "dependencies": {
+  "license": "Apache-2.0",
+  "devDependencies": {
     "prompts": "2.4.2",
-    "ora": "^7.0.1",
-    "kolorist": "^1.8.0"
+"ora":"8.0.1",
+"kolorist": "1.8.0"
   }
 }

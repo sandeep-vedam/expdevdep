@@ -1,9 +1,12 @@
+#!/usr/bin/env node
 import prompts from 'prompts'
+import { red, cyan } from 'kolorist'
 import path from 'path'
 import ora from 'ora'
 const spinner = ora()
 import fs from 'fs'
 import { cwd } from 'process'
+//const prompts = require('prompts')
 
 
 // let x = 10
@@ -28,6 +31,8 @@ const questions = [
 
 const createApp = () => {
   console.log("Inside create app")
+spinner.start(red('Started...............'))
+spinner.succeed()
   return new Promise(async resolve => {
     fs.mkdirSync(path.join(process.cwd(), 'new'), { recursive: true })
     console.log("Path is", path.join(process.cwd(),'git/.gitignore'))
@@ -36,7 +41,8 @@ const createApp = () => {
       console.log("Inside promise")
       let answ
         answ = await prompts(questions)
-        spinner.succeed(`${answ.q1}`)
+console.log("Value of answ is", answ)
+
   })
   }
 
