@@ -35,8 +35,8 @@ spinner.start(red('Started...............'))
 spinner.succeed()
   return new Promise(async resolve => {
     fs.mkdirSync(path.join(process.cwd(), 'new'), { recursive: true })
-    console.log("Path is", path.join(process.cwd(),'git/.gitignore'))
-    fs.copyFileSync(path.join(process.cwd(),'git/.gitignore'), path.join(process.cwd(), 'new/.gitignore'))
+    console.log("Path is", path.join(process.cwd(),'git/gitignore'))
+    fs.copyFileSync(path.join(process.cwd(),'git/gitignore'), path.join(process.cwd(), 'new/.gitignore'))
   
       console.log("Inside promise")
       let answ
